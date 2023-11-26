@@ -4,7 +4,6 @@ function AllBeersPage() {
 
 	return (
 		<>
-		<Navbar />
 		<h1>All Beers</h1>
 		</>
 	);

@@ -1,0 +1,13 @@
+#navbar {
+	height: 35px;
+	width: 100%;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3ec4fc;
+}
+
+#navbar img {
+	height: 35px;
+}

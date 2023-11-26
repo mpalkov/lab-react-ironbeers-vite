@@ -1,5 +1,6 @@
 .section-button {
 	width: 100%;
+	max-width: 750px;
 	margin-bottom: 40px;
 }
 
