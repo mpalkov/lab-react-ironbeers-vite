@@ -5,7 +5,7 @@ const BeerCard = (props) => {
 	const {image_url, name, tagline, contributed_by, _id} = props.beerData;
 
 	return (
-		<Link to={`/beers/:${_id}`} className="width-100">
+		<Link to={`/beers/${_id}`} className="width-100">
 		<article className="beer-card width-100">
 			<div className="beer-img" >
 				<img src={image_url} alt={name} />
