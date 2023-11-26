@@ -18,7 +18,6 @@ function App() {
 			  const response = await fetch(apiURL_allBeers);
 			  const beersJson = await response.json();
 			  setBeers(beersJson);
-			  console.log("GETBEERS", beersJson);
 		  }
 		  catch (err) {
 			  console.log(err);
