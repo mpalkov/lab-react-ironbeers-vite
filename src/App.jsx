@@ -34,7 +34,7 @@ function App() {
 		<Routes>
 			<Route path="/" element={<HomePage />} />
 			<Route path="/beers" element={<AllBeersPage beers={beers} />} />
-			<Route path="/random-beer" element={<RandomBeerPage />} />
+			<Route path="/random-beer" element={<RandomBeerPage beers={beers}/>} />
 			<Route path="/new-beer" element={<AddBeerPage />} />
 			<Route path="/beers/:beerId" element={<BeerDetailsPage beers={beers}/>} />
 		</Routes>
